@@ -1,0 +1,52 @@
+{
+  "quizzes": [
+    {
+      "id": "automata-basics",
+      "title": "Automata Basics: QuizLogic Demo",
+      "description": "A small demonstration of finite-state answer validation, regular-language patterns, automatic checking, and score generation.",
+      "questions": [
+        {
+          "id": 1,
+          "type": "mcq",
+          "question": "Which model recognizes regular languages?",
+          "options": ["Finite Automaton", "Turing Machine only", "Database", "Compiler"],
+          "patterns": ["finite automaton"],
+          "points": 1,
+          "explanation": "Finite automata recognize regular languages."
+        },
+        {
+          "id": 2,
+          "type": "short",
+          "question": "What does DFA stand for?",
+          "patterns": ["deterministic finite automaton", "dfa"],
+          "points": 1,
+          "explanation": "DFA means Deterministic Finite Automaton."
+        },
+        {
+          "id": 3,
+          "type": "short",
+          "question": "Give a common abbreviation for finite state machine.",
+          "patterns": ["fsm", "finite state machine", "finite state machines"],
+          "points": 1,
+          "explanation": "FSM is a common abbreviation for finite state machine."
+        },
+        {
+          "id": 4,
+          "type": "short",
+          "question": "Which language family is described by expressions using union, concatenation, and repetition?",
+          "patterns": ["regular", "regular language", "regular languages"],
+          "points": 1,
+          "explanation": "These operations are used to describe regular languages."
+        },
+        {
+          "id": 5,
+          "type": "short",
+          "question": "Enter any string containing only lowercase letters a or b.",
+          "patterns": ["[ab]+"],
+          "points": 2,
+          "explanation": "The pattern [ab]+ is a regular-language rule: one or more a/b characters."
+        }
+      ]
+    }
+  ]
+}
